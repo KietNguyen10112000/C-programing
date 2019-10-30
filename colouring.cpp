@@ -177,7 +177,7 @@ int main3()
 	//doc flie
 	FILE* fptr1;
 	errno_t err1;
-	err1 = fopen_s(&fptr1, "D:/programing_learing/Toan_hoc_roi_rac/coding/Toan_hoc_roi_rac/dothi.txt", "r");
+	err1 = fopen_s(&fptr1, "LINK to your .TXT FILE in your PC", "r");
 	if (err1 == 0)
 	{
 		printf("The file was opened\n");
@@ -235,7 +235,7 @@ int main3()
 
 	FILE* fptr2;
 	errno_t err2;
-	err2 = fopen_s(&fptr2, "D:/programing_learing/Toan_hoc_roi_rac/coding/Toan_hoc_roi_rac/graph_coloured.dot", "w");
+	err2 = fopen_s(&fptr2, "LINK to your out put .DOT FILE in your PC", "w");
 	if (err2 == 0)
 	{
 		printf("The file was opened\n");
