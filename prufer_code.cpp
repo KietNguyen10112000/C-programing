@@ -114,7 +114,7 @@ int main2()
 	//doc flie
 	FILE* fptr;
 	errno_t err;
-	err = fopen_s(&fptr, "D:/programing_learing/Toan_hoc_roi_rac/coding/Toan_hoc_roi_rac/tree_code.txt", "r");
+	err = fopen_s(&fptr, "LINK to your .TXT FILE in your PC", "r");
 	if (err == 0)
 	{
 		printf("The file was opened\n");
