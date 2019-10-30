@@ -215,7 +215,7 @@ int main()
 	//doc flie
 	FILE* fptr3;
 	errno_t err3;
-	err3 = fopen_s(&fptr3, "D:/programing_learing/Toan_hoc_roi_rac/coding/Toan_hoc_roi_rac/5_letters_words.txt", "r");
+	err3 = fopen_s(&fptr3, "LINK to your .TXT FILE in your PC", "r");
 	if (err3 == 0)
 	{
 		printf("The file was opened .... DATA is loading...\n\n");
