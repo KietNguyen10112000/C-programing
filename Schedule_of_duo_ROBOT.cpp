@@ -180,7 +180,7 @@ int main()
 	//doc flie
 	FILE* fptr4;
 	errno_t err4;
-	err4 = fopen_s(&fptr4, "D:/programing_learing/Toan_hoc_roi_rac/coding/Toan_hoc_roi_rac/robot.txt", "r");
+	err4 = fopen_s(&fptr4, "LINK to your .TXT file in your PC", "r");
 	if (err4 == 0)
 	{
 		printf("The file was opened .... DATA is loading...\n\n");
