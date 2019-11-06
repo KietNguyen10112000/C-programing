@@ -172,7 +172,7 @@ void to_mau_do_thi_khong_chinh_quy(dinh* ds_dinh, canh* ds_canh)
 	}
 }
 
-int main3()
+int main()
 {
 	//doc flie
 	FILE* fptr1;
